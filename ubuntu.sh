@@ -21,7 +21,6 @@ for s in ./scripts/[0-9_]*; do
 done
 
 f_pre
-f_firewall
 f_disablenet
 f_disablemnt
 f_disablemod
@@ -48,7 +47,6 @@ f_sshdconfig
 f_password
 f_cron
 f_ctrlaltdel
-f_auditd
 f_aide
 f_rhosts
 f_users
@@ -57,7 +55,6 @@ f_aptget_clean
 f_suid
 f_umask
 f_path
-f_aa_enforce
 f_aide_post
 f_aide_timer
 f_systemddelta
